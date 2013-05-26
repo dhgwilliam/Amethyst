@@ -50,6 +50,63 @@ reliant on fragile private APIs.</p>
 
 <p>Credit goes to <a href="https://github.com/fjolnir">fjolnir</a> for the bulk of the initial
 logic and structure.</p>
+
+<h1>Using Amethyst</h1>
+
+<p>The <code>Enable access for assistive devices</code> option on the Accessibility
+preferences pane must be enabled for Amethyst to function.</p>
+
+<h2>Keyboard Shortcuts</h2>
+
+<p>Amethyst uses three modifier combinations.</p>
+
+<ul>
+<li>
+<code>mod1</code> - <code>option + shift</code>
+</li>
+<li>
+<code>mod2</code> - <code>ctrl + option + shift</code>
+</li>
+<li>
+<code>mod3</code> - <code>ctrl + option</code>
+</li>
+</ul><p>And defines the following commands.</p>
+
+<ul>
+<li>
+<code>mod1 + space</code> — change layout</li>
+<li>
+<code>mod1 + [n]</code> - focus the nth screen</li>
+<li>
+<code>mod2 + [n]</code> - move focused window to nth screen</li>
+<li>
+<code>mod3 + [n]</code> - move focused window to nth space</li>
+<li>
+<code>mod1 + h</code> - shrink the main pane</li>
+<li>
+<code>mod1 + l</code> - expand the main pane</li>
+<li>
+<code>mod1 + ,</code> - increase the number of windows in the main pane</li>
+<li>
+<code>mod1 + .</code> - decrease the number of windows in the main pane</li>
+<li>
+<code>mod1 + j</code> - focus the next window counterclockwise</li>
+<li>
+<code>mod1 + k</code> - focus the next window clockwise</li>
+<li>
+<code>mod2 + j</code> - move the focused window one space counterclockwise</li>
+<li>
+<code>mod2 + k</code> - move the focused window one space clockwise</li>
+<li>
+<code>mod1 + return</code> - swap the focused window with the main window</li>
+</ul><h2>Setting Up Spaces Support</h2>
+
+<p>Spaces are, unfortunately, not supported right out of the box. To enable it you
+must activate Mission Control's keyboard shortcuts for switching to specific
+Desktops, as Mac OS X calls them. This option is in the Keyboard Shortcuts tab
+of the Keyboard preferences pane. The shortcuts will be of the form <code>ctrl +
+[n]</code>. Amethyst is only able to send a window to the <code>n</code>th space if the shortcut
+<code>ctrl + n</code> is enabled.</p>
       </section>
 
     </div>
