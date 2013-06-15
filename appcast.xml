@@ -11,9 +11,22 @@
       </description>
       <pubDate>Sat, 15 Jun 2013 17:19:11 +0000</pubDate>
       <sparkle:releaseNotesLink>https://ianyh.github.io/Amethyst/versions/Amethyst-0.7.html</sparkle:releaseNotesLink>
-      <enclosure url="https://ianyh.github.io/Amethyst/versions/Amethyst-0.6.dmg"
+      <enclosure url="https://ianyh.github.io/Amethyst/versions/Amethyst-0.7.zip"
                  sparkle:version="0.7"
-                 length="1600000"
+                 length="4374740"
+                 type="application/octet-stream"
+                 />
+    </item>
+    <item>
+      <title>Version 0.6</title>
+      <description>
+        
+      </description>
+      <pubDate>Sat, 14 Jun 2013 17:19:11 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://ianyh.github.io/Amethyst/versions/Amethyst-0.6.html</sparkle:releaseNotesLink>
+      <enclosure url="https://ianyh.github.io/Amethyst/versions/Amethyst-0.6.zip"
+                 sparkle:version="0.6"
+                 length="4374740"
                  type="application/octet-stream"
                  />
     </item>
