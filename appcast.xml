@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Amethyst Changelog</title>
+    <link>https://raw.github.com/ianyh/Amethyst/gh-pages/appcast.xml</link>
+    <language>en</language>      
+    <item>
+      <title>Version 0.7</title>
+      <description>
+        
+      </description>
+      <pubDate>Sat, 15 Jun 2013 17:19:11 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://raw.github.com/ianyh/Amethyst/gh-pages/versions/Amethyst-0.7.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/ianyh/Amethyst/raw/gh-pages/versions/Amethyst-0.7.zip"
+                 sparkle:version="0.7"
+                 length="1600000"
+                 type="application/octet-stream"
+                 />
+    </item>
+  </channel>
+</rss>
